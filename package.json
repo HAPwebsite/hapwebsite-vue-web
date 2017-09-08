@@ -1,8 +1,8 @@
 {
-  "name": "{{ name }}",
+  "name": "HAPwebsite LLC",
   "version": "1.0.0",
-  "description": "{{ description }}",
-  "author": "{{ author }}",
+  "description": "HAPwebsite LLC - VUE APP",
+  "author": "Erblin Derguti <erblin.derguti@hapwebsite.com>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
