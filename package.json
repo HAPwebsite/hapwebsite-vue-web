@@ -5,10 +5,10 @@
   "author": "Erblin Derguti <erblin.derguti@hapwebsite.com>",
   "private": true,
   "scripts": {
-    “dev”: “node build/dev-server.js”,
-    “build”: “rimraf dist && mkdirp dist && ncp static dist/static && cross-env NODE_ENV=production webpack — progress — hide-modules — config build/webpack.prod.conf.js”,
-    “postinstall”: “npm run build”,
-    “start”: “node server.js”
+    "dev": "node build/dev-server.js",
+    "build": "rimraf dist && mkdirp dist && ncp static dist/static && cross-env NODE_ENV=production webpack — progress — hide-modules — config build/webpack.prod.conf.js",
+    "postinstall": "npm run build",
+    "start": "node server.js"
   },
   "dependencies": {
     "nuxt": "^1.0.0-rc8"
